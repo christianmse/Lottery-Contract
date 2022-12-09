@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrease",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increase",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"main.sol": "Counter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"main.sol": {
+			"keccak256": "0x445bfc8b653f928af1cbbc4b5919ea453efd1d8c7228747fec288d4ef0df46ac",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://14070f0ce74871438335054f8f3f39b82587fcddce455fb065a0bfdae848e494",
+				"dweb:/ipfs/QmRE1nfWPTwSzYXAnbR6Dd5RoAFQe6KYbMeLyHW75zpc6V"
+			]
+		}
+	},
+	"version": 1
+}
